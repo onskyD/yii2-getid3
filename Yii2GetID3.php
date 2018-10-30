@@ -5,10 +5,19 @@ namespace kato\getid3;
 use GetId3\GetId3Core as GetId3;
 use yii\web\NotFoundHttpException;
 
-class Yii2GetID3 extends \yii\base\object
+/**
+ * Class Yii2GetID3
+ * @package kato\getid3
+ */
+class Yii2GetID3
 {
     public $filename;
 
+    /**
+     * @param $filename
+     * @return \GetId3\type
+     * @throws NotFoundHttpException
+     */
     public function getData($filename)
     {
         $this->filename = $filename;
