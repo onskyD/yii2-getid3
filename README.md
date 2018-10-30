@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist perminder-klair/yii2-getid3 "*"
+php composer.phar require --prefer-dist onskyd/yii2-getid3 "*"
 ```
 
 or add
 
 ```
-"perminder-klair/yii2-getid3": "*"
+"onskyd/yii2-getid3": "*"
 ```
 
 to the require section of your `composer.json` file.
