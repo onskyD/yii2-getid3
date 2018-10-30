@@ -1,5 +1,5 @@
 {
-    "name": "perminder-klair/yii2-getid3",
+    "name": "onskyd/yii2-getid3",
     "description": "getID3() Extention for Yii2",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","getid3"],
